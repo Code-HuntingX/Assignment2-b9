@@ -127,7 +127,7 @@
         padding-top: 24px;
     }
 
-    .choose-container>p{
+    .choose-container>p {
         margin: 0 10px;
     }
 
@@ -163,5 +163,47 @@
         padding: 32px 0 16px 32px;
         width: 48px;
         height: 48px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    form .newsletter-form {
+        margin: 0 auto;
+        width: 85%;
+        height: 353px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+    .form-title{
+        font-size: 20px;
+    }
+    form button {
+        margin-top: 0px;
+    }
+
+    .travel-image img{
+        margin:0 5%;
+        width: 90%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+    .discount70 {
+        width: 214px;
+        height: 79px;
+        margin-right: 32px;
+    margin-bottom: 45px;
+    }
+    .discount70 p{
+        font-size: 15px;
+    }
+    .discount70 h3{
+        font-size: 21px;
+    }
+    .savings{
+        margin-top: 16px;
     }
 }
