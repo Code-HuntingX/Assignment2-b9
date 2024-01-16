@@ -72,6 +72,9 @@
     .bottom-title-description{
         padding-bottom: 1px;
     }
+    .popular-tours ul{
+        padding: 15px;
+    }
 
     .popular-tours button {
         width: 174px;
