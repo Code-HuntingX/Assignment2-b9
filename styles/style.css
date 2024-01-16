@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 34px;
+    border: none;
+    cursor: pointer;
+}
+
+nav {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name h1 {
+    padding-left: 15px;
+}
+
+nav .nav-menu ul li {
+    display: inline-flex;
+}
+
+nav .nav-menu ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px;
+
+}
+
+.banner {
+    margin-top: 50px;
+    border-radius: 16px;
+    background: url('../images/banner.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.banner-container {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.10) 100%);
+    border-radius: 16px;
+    padding-bottom: 106px;
+    padding-top: 106px;
+    /* background: rgba(212, 9, 239, 0.136); */
+}
+
+.banner .banner-title {
+    text-align: center;
+}
+
+.banner .banner-title h1 {
+    padding-bottom: 24px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner .banner-title p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-bottom: 64px;
+    padding-right: 247px;
+    padding-left: 247px;
+}
+
+.banner .place-finder {
+    /* margin:20px 185px 106px 185px; */
+    margin-right: 339px;
+    margin-left: 339px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+
+
+}
+
+.place-finder input,
+select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    align-items: center;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* style for popular tours */
+.popular-tours{
+    display: flex;
+    gap: 53px;
+    margin-top: 100px;
+}
+.tour-container{
+    
+}
+.popular-tours h1{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+padding-bottom: 24px;
+}
+.popular-tours p, li{
+    padding-bottom: 24px;
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.popular-tours li{
+margin-left: 10px;
+text-align: left;
+}
+.popular-tours button{
+    margin-top: 32px;
+}
+.popular-tours img{
+    width: 540px;
+    height: 550px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+

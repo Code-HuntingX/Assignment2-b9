@@ -1,0 +1,84 @@
+@media screen and (max-width: 600px) {
+    .banner {
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+        margin: auto;
+        padding: auto;
+        margin-top: 50px;
+    }
+
+    .banner-container {
+        padding-top: 32px;
+        width: 335px;
+        height: 345px;
+    }
+
+    .color-mix .place-finder {
+        margin: 0;
+        justify-content: center;
+
+    }
+
+
+    .banner .banner-title h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .banner .banner-title p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 32px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .banner .place-finder {
+        margin-right: 24px;
+        margin-left: 24px;
+        text-align: center;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        /* padding: 16px; */
+
+
+    }
+
+    .place-finder input,
+    select {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .place-finder input {
+        width: 96%;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+        margin: 0;
+        padding: 24px 20px;
+    }
+
+    .popular-tours h1 {
+        font-size: 20px;
+        color: #131318;
+    }
+
+    .popular-tours button {
+        width: 174px;
+        height: 52px;
+    }
+
+    .popular-tours img {
+        width: 335px;
+        height: 342px;
+        margin-top: -20px;
+    }
+
+}
