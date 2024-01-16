@@ -14,6 +14,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+.icon{
+    vertical-align: middle;
+    padding-right: 1px;
+}
 
 .btn-primary {
     border-radius: 8px;
