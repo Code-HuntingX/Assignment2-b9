@@ -10,11 +10,16 @@
     display: none;
 }
 
+.hamburger {
+    display: none;
+}
+
 body {
     max-width: 1440px;
     margin: 0 auto;
 }
-.icon{
+
+.icon {
     vertical-align: middle;
     padding-right: 1px;
 }
@@ -142,9 +147,8 @@ select {
     margin-top: 100px;
 }
 
-.tour-container {}
 
-.popular-tours h1 {
+.popular-tours .tour-title {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
@@ -187,7 +191,8 @@ li {
     text-align: center;
 }
 
-.destination h1 {
+.destination h1,
+.choose-title {
     color: #131318;
     text-align: center;
     font-size: 40px;
@@ -196,7 +201,8 @@ li {
     padding-top: 100px;
 }
 
-.destination p {
+.destination p,
+.choose-title-description {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
@@ -213,4 +219,52 @@ li {
     display: flex;
     gap: 24px;
     padding-bottom: 24px;
+}
+
+
+/* style for choose us  */
+.card {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.card h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
+
+.card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 32px;
+}
+
+.card .card-container {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-container img {
+    padding: 32px 0 32px 32px;
+}
+
+.card .map {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card .price {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }

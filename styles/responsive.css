@@ -1,8 +1,16 @@
 @media screen and (max-width: 600px) {
 
-    .nav-menu{
+    .nav-menu {
         display: none;
     }
+
+    .hamburger {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+
     .banner {
         width: 335px;
         height: 483px;
@@ -44,7 +52,6 @@
         text-align: center;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
-        /* padding: 16px; */
 
 
     }
@@ -73,10 +80,12 @@
         font-size: 20px;
         color: #131318;
     }
-    .bottom-title-description{
+
+    .bottom-title-description {
         padding-bottom: 1px;
     }
-    .popular-tours ul{
+
+    .popular-tours ul {
         padding: 15px;
     }
 
@@ -85,9 +94,10 @@
         height: 52px;
         margin-top: 0px;
     }
-    .tour-image{
+
+    .tour-image {
         max-width: 375vh;
-        justify-content:center ;
+        justify-content: center;
         align-items: center;
     }
 
@@ -101,28 +111,57 @@
     .destination-container {
         margin-left: 10px;
         margin-right: 10px;
-            justify-content:center ;
+        justify-content: center;
         align-items: center;
     }
-    .destination p {
+
+    .destination p,
+    .choose-title-description {
         padding-left: 0;
         padding-right: 0;
     }
-    .destination h1{
+
+    .destination h1,
+    .choose-title {
         font-size: 20px;
+        padding-top: 24px;
     }
-    .destination-country, .first-row,
+
+    .choose-container>p{
+        margin: 0 10px;
+    }
+
+    .destination-country,
+    .first-row,
     .third-row,
-    .second-row{
+    .second-row {
         flex-direction: column;
     }
-    .destination-country img{
+
+    .destination-country img {
         margin: 0;
         padding: 0;
         width: 100%;
         height: 200px;
         flex-shrink: 0;
-    
+
     }
 
+    .card {
+        flex-direction: column;
+        margin: auto 15px;
+        margin-bottom: 24px;
+    }
+
+    .card .card-container {
+        width: 100%;
+        height: 289px;
+        justify-content: center;
+    }
+
+    .card-container img {
+        padding: 32px 0 16px 32px;
+        width: 48px;
+        height: 48px;
+    }
 }
