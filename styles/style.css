@@ -170,4 +170,18 @@ text-align: left;
     align-items: center;
 }
 
+/* style for our destination */
+.destination-container{
+    margin-left: 135px;
+}
+.destination-container .destination{
+    text-align: center;
+}
+.destination-country .first-row, .third-row, .second-row{
+    display: flex ;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+
 
