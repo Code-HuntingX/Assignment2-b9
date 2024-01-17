@@ -252,10 +252,13 @@
     .package-container{
         flex-direction: column;
         width: 80%;
-        margin: 0 1%;
+        margin: 0 auto;
         padding: 0;
         justify-content: center;
     
+    }
+    .package-container img{
+        width: 100%;
     }
 }
 

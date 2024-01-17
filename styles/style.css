@@ -278,7 +278,7 @@ li {
 }
 .bandarban{
     /* border: 2px solid wheat; */
-    background-color: wheat;
+    background-color: rgb(243, 242, 204);
     border-radius: 15px;
     width: 350px;
     height: auto;
